@@ -1,2 +1,2 @@
-# 21-000-000.github.io
+# 21ooo.ooo
 Future Github pages
