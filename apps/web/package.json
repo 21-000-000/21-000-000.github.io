@@ -16,6 +16,7 @@
     "astro": "^5.9.3"
   },
   "devDependencies": {
+    "@astrojs/check": "^0.9.4",
     "@repo/biome-config": "*",
     "@repo/typescript-config": "*",
     "@repo/ui": "*",

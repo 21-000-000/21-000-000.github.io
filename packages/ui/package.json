@@ -12,6 +12,7 @@
     "check-types": "astro check --tsconfig ./tsconfig.json"
   },
   "devDependencies": {
+    "@astrojs/check": "^0.9.4",
     "@repo/biome-config": "*",
     "@repo/typescript-config": "*",
     "@turbo/gen": "^2.5.0",

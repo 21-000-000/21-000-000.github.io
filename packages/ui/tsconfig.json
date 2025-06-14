@@ -8,6 +8,6 @@
     "jsx": "preserve",
     "jsxImportSource": "astro"
   },
-  "include": ["src/**/*", "**/*.astro"],
+  "include": ["src", "**/*.ts", "**/*.tsx", "**/*.astro"],
   "exclude": ["dist", "build", "node_modules"]
 }
