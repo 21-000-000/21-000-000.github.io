@@ -1,0 +1,21 @@
+{
+  "$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
+  "extends": ["./biome.json"],
+  "files": {
+    "ignoreUnknown": false,
+    "ignore": ["dist/**", "build/**", "node_modules/**", ".turbo/**", ".astro/**"],
+    "include": ["**/*.astro", "**/*.ts", "**/*.js", "**/*.tsx", "**/*.jsx"]
+  },
+  "overrides": [
+    {
+      "include": ["**/*.astro"],
+      "linter": {
+        "rules": {
+          "style": {
+            "useImportType": "off"
+          }
+        }
+      }
+    }
+  ]
+}

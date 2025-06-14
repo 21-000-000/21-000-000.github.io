@@ -27,6 +27,8 @@ out/
 build
 dist
 
+# Astro
+.astro/
 
 # Debug
 npm-debug.log*
@@ -36,3 +38,6 @@ yarn-error.log*
 # Misc
 .DS_Store
 *.pem
+
+# Claude Code
+.claude/
