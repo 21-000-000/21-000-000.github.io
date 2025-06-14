@@ -1,5 +1,5 @@
 {
-  "name": "@repo/ui",
+  "name": "@21-000-000/ui",
   "version": "0.0.0",
   "private": true,
   "exports": {
@@ -13,8 +13,8 @@
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.4",
-    "@repo/biome-config": "*",
-    "@repo/typescript-config": "*",
+    "@21-000-000/biome-config": "*",
+    "@21-000-000/typescript-config": "*",
     "@turbo/gen": "^2.5.0",
     "@types/node": "^22.15.3",
     "astro": "^5.9.3",

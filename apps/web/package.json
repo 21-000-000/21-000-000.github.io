@@ -17,9 +17,9 @@
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.4",
-    "@repo/biome-config": "*",
-    "@repo/typescript-config": "*",
-    "@repo/ui": "*",
+    "@21-000-000/biome-config": "*",
+    "@21-000-000/typescript-config": "*",
+    "@21-000-000/ui": "*",
     "typescript": "^5.8.2"
   }
 }

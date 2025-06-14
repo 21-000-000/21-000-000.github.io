@@ -1,3 +1,3 @@
 {
-	"extends": ["@repo/biome-config/astro"]
+	"extends": ["@21-000-000/biome-config/astro"]
 }

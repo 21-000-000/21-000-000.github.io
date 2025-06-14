@@ -28,9 +28,9 @@ This is a **Turborepo monorepo** configured for **Astro** development:
 - `apps/` - Application packages:
   - `web` - Astro web application
 - `packages/` - Shared packages:
-  - `@repo/ui` - Astro component library with exports pattern `"./*": "./src/*.astro"`
-  - `@repo/biome-config` - Shared Biome configurations (base and Astro-specific)
-  - `@repo/typescript-config` - Shared TypeScript configurations
+  - `@21-000-000/ui` - Astro component library with exports pattern `"./*": "./src/*.astro"`
+  - `@21-000-000/biome-config` - Shared Biome configurations (base and Astro-specific)
+  - `@21-000-000/typescript-config` - Shared TypeScript configurations
 
 ### Build Pipeline
 - Turborepo handles build orchestration with dependency management
@@ -45,7 +45,7 @@ The UI package includes Turbo generators:
 
 ### Code Quality
 - **Biome** for linting, formatting, and import organization
-- Astro-specific Biome configuration in `@repo/biome-config/astro`
+- Astro-specific Biome configuration in `@21-000-000/biome-config/astro`
 - TypeScript strict mode with Astro integration
 
 ### Key Technologies
